@@ -1,0 +1,24 @@
+### Librerias necesarias para ejecutar la API y el EDA correctamente
+
+fastapi
+Installation: pip install fastapi
+@Note: fastapi installation automatically install a server called uvicorn, but if its not the case run pip install uvicorn for manually installation of the runontime-server
+
+pandas
+Installation: pip install pandas
+
+numpy
+Installation: pip install numpy
+@NOTE: pandas installation automatically install numpy dependences
+
+matplotlib.pyplot
+Installation: pip install matplotlib
+
+pyodbc
+Installation: pip install pyodbc
+
+seaborn
+Installation: pip install seaborn
+@NOTE: pandas installation automatically install seaborn dependences
+
+@@GENERAL NOTE: Read the README file to know how to use and run the API project and web project correctly, if the README file doesnt say to do something then DONT DO THAT 'SOMETHING'

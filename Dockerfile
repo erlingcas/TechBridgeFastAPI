@@ -16,7 +16,7 @@ WORKDIR /app
 COPY . .
 
 # Instalar las dependencias de Python
-RUN pip install -r requirements.txt
+RUN pip install -r requirementsAPI.txt
 
 # Exponer el puerto que usará la aplicación (ajustar según sea necesario)
 EXPOSE 8000
